@@ -373,7 +373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2669531113926830384, guid: ff6624a03ad975b49b6b0ddec85a969f, type: 3}
       propertyPath: m_IsKinematic
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3451499259748121225, guid: ff6624a03ad975b49b6b0ddec85a969f, type: 3}
       propertyPath: m_IsTrigger
@@ -2834,7 +2834,7 @@ GameObject:
   - component: {fileID: 1343700701}
   - component: {fileID: 1343700702}
   m_Layer: 5
-  m_Name: Slider (Tamanho)
+  m_Name: Slider (Escala)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4111,7 +4111,7 @@ GameObject:
   - component: {fileID: 1682277694}
   - component: {fileID: 1682277693}
   m_Layer: 0
-  m_Name: ModelController
+  m_Name: ModelManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4194,7 +4194,7 @@ GameObject:
   - component: {fileID: 1773837883}
   - component: {fileID: 1773837884}
   m_Layer: 5
-  m_Name: Slider (Rotacao)
+  m_Name: "Slider (Rota\xE7\xE3o)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4822,30 +4822,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: ModelController, Assembly-CSharp
         m_MethodName: ResetModel
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 999310767}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1593153721}
-        m_TargetAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
-        m_MethodName: set_enabled
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

@@ -67,7 +67,7 @@ public class ModelController : MonoBehaviour
         
         modelTransform.localRotation = Quaternion.Euler(0f, angle, 0f);
 
-        Debug.Log($"[ModelController] Método RotateModel chamado. Ângulo de rotação: {Quaternion.Euler(0f, angle, 0f)}°");
+        Debug.Log($"[ModelController] Método RotateModel chamado. Ângulo de rotação: {angle}°");
     }
 
     public void ToggleColor(bool useAlternativeColor)
